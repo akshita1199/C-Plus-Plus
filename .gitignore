@@ -1,0 +1,14 @@
+# Compiled executables
+*.exe
+*.out
+*.o
+*.obj
+
+# Build output
+output/
+build_out.txt
+build_error.txt
+
+# Editor
+.vscode/
+.claude/
