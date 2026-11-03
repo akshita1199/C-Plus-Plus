@@ -14,6 +14,9 @@ int main(){
     }
     cout<<"string :"<<" "<<input<<endl;
     cout<<"length :"<<" "<<length;
+
+    // or
+    // cout<<"length :"<<input.length()<<endl;
     
     return 0;
 }

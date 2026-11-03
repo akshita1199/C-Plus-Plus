@@ -6,22 +6,22 @@ using namespace std;
 int main(){
 
     // using loop
-    // string a ="";
-    // cout<<"enter a";
-    // getline(cin,a);
-    // string reversed =" ";
-    // for(int i=a.length()-1; i>=0; i--){
-        // reversed +=a[i];
-    // }
-    // cout<<"reversed"<<reversed<<endl;
+    string a ="";
+    cout<<"enter a";
+    getline(cin,a);
+    int i=a.length()-1;
+    while(i>=0){
+    cout<<a[i];
+    i--;
+    }
 
 
     // using reverse
 
-    string a =" ";
-    cout<<"enter a";
-    getline(cin,a);
-    reverse(a.begin(),a.end());
-    cout<<a<<endl;
+    // string a =" ";
+    // cout<<"enter a";
+    // getline(cin,a);
+    // reverse(a.begin(),a.end());
+    // cout<<a<<endl;
     return 0;
 }

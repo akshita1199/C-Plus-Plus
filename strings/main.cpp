@@ -75,19 +75,103 @@ int main(){
     // cout<<str<<endl;
 
     // palindrome string
+    // string a="madam";
+    // string rev=a;
+    // reverse(rev.begin(),rev.end());
+    // if(a==rev){
+        // cout<<"palindrome"<<endl;
+    // }
+    // else{
+        // cout<<"not palindrome"<<endl;
+    // }
 
-    string str = "MADAM";
-    string rev = str;
+    // print
 
-    reverse(rev.begin(),rev.end());
-     if(str==rev){
-        cout<<"PALINDROME";
-     }
-     else{
-        cout<<"PILIMDROME NOT"
-     }
+    // string a;
+    // cout<<"enter a";
+    // cin>>a;
+    // cout<<a;
+
+    // length
+    // string a;
+    // cout<<"enter a";
+    // cin>>a;
+    // cout<<a.length();
+
+    // reverse
+
+    // string a;
+    // cout<<"enter a";
+    // cin>>a;
+    // int start =0;
+    // int end=a.length()-1;
+    // while(start<end){
+        // int temp=a[start];
+        // a[start]=a[end];
+        // a[end]=temp;
+        // start++;
+        // end--;
+    // }
+    // cout<<a;
+    
+    
+    // vowels count
+    // string a;
+    // cout<<"enter a";
+    // cin>>a;
+    //  int count =0;
+    //  for(char ch :a){
+        // if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+        // count++;
+    //  }
+    //  cout<<count;
+
+    // palindrome
+
+    // string a;
+    // cout<<"enter a";
+    // cin>>a;
+    // int start=0;
+    // bool ans =0;
+//    int end =a.length()-1;
+//    while(start<end){
+    // if(a[start]==a[end]){
+        // ans=true;
+        
+//    }
+//    else{
+    // ans=false;
+    
+    // break;
+//    }
+//    start++;
+//    end--;
+// }
+// if(ans){
+    // cout<<"palindrome";
+// }
+// else{
+    // cout<<"not palindrome";
+// }
+// cout<<endl;
 
 
+// count word
 
+string a;
+cout<<"enter a";
+getline(cin,a);
+
+string b;
+cout<<"enter b";
+getline(cin,b);
+
+ int count=0;
+ for(int i=0; i<=b.length(); i++){
+    if(a.find(b)!=string::npos){
+        count++;
+    }
+ }
+ cout<<count<<endl;
     return 0;
 }
