@@ -158,20 +158,58 @@ int main(){
 
 // count word
 
-string a;
-cout<<"enter a";
-getline(cin,a);
+// string a;
+// cout<<"enter a";
+// getline(cin,a);
 
-string b;
-cout<<"enter b";
-getline(cin,b);
+// string b;
+// cout<<"enter b";
+// getline(cin,b);
 
- int count=0;
- for(int i=0; i<=b.length(); i++){
-    if(a.find(b)!=string::npos){
-        count++;
+//  int count=0;
+//  for(int i=0; i<=b.length(); i++){
+//     if(a.find(b)!=string::npos){
+//         count++;
+//     }
+//  }
+//  cout<<count<<endl;
+
+//string reverse + palindrom
+
+// string str;
+// cin>>str;
+// string str_rev;
+// for(int i=str.size()-1; i>=0; i--){
+//     str_rev.push_back(str[i]);
+// }
+//     cout<<str_rev<<endl;
+//     if(str==str_rev){
+//         cout<<"pilindrom";
+//     }
+//     else{
+//         cout<<"not palindrom";
+//     }
+
+    //large number input with string
+
+    // string s;
+    // cin>>s;
+    // int last_digit = s[s.size()-1]-'0';
+    // cout<<last_digit;
+
+    //push_back 
+
+    string s;
+    int n;
+    // method 1
+    for(int i=0; i<n; i++){
+        s.push_back('a');   //0(1)
     }
- }
- cout<<count<<endl;
+    // method no 2
+    for(int i=0; i<n; i++){
+        s=s+'a';  //0(s.size())
+    }
+
+
     return 0;
 }

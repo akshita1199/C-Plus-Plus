@@ -71,34 +71,34 @@ using namespace std;
 
             // reverse 
 
-             int size;
-        cout<<"enter size";
-        cin>>size;
-        int num[size];
-        cout<<"enter num";
-        for(int i=0; i<size; i++){
-            cin>>num[i];}
-                // method 1            // cout<<"reverse array";
-            // for(int i=size-1; i>=0; i--){
-                // cout<<num[i];
+        //      int size;
+        // cout<<"enter size";
+        // cin>>size;
+        // int num[size];
+        // cout<<"enter num";
+        // for(int i=0; i<size; i++){
+        //     cin>>num[i];}
+        //         // method 1            // cout<<"reverse array";
+        //     // for(int i=size-1; i>=0; i--){
+        //         // cout<<num[i];
 
-                // method 2 while loop
-                int start=0;
-                int end = size-1;
+        //         // method 2 while loop
+        //         int start=0;
+        //         int end = size-1;
             
-                while(start<end){
-                int temp=num[start];
-                num[start]=num[end];
-                num[end]=temp;
+        //         while(start<end){
+        //         int temp=num[start];
+        //         num[start]=num[end];
+        //         num[end]=temp;
                 
-                    start++;
-                    end--;
-                }
-                    cout<<"reverse array :";
+        //             start++;
+        //             end--;
+        //         }
+        //             cout<<"reverse array :";
 
-                    for(int i=0; i<size; i++){
-                        cout<<num[i]<<"  ";
-                    }
+        //             for(int i=0; i<size; i++){
+        //                 cout<<num[i]<<"  ";
+        //             }
             
 
             // }
@@ -119,5 +119,18 @@ using namespace std;
                 // }
                 // cout<<largest<<endl;
             // }
+
+            //array delaration
+            int size;
+            cin>>size;
+            int a[size];
+            for(int i=0; i<size; i++) {
+                cin>>a[i];
+            }
+            int sum=0;
+            for(int i=0; i<size; i++){
+                sum=sum+a[i];
+            }
+            cout<<sum<<endl;
         return 0;
     }
