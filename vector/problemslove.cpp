@@ -50,6 +50,7 @@ int main(){
     #reverse a vector
     example
     input
+    5
     10 20 30 40 50
     output
     50 40 30 20 10
@@ -292,6 +293,7 @@ example
 input
 5
 10 20 30 40 50
+30
 output
 found
 */
@@ -314,7 +316,7 @@ found
 
 /*
 problem no 12
-#remove an element from vector
+#remove any element from vector
 example
 input
 5
@@ -341,7 +343,7 @@ output
 
 /*
 problem no 13
-#short a vactor
+#sort a vactor
 
 example
 input
@@ -456,7 +458,5 @@ output
 //         cout<<num[i];
 //     }
 // }
-/*
-problem no 18
-*/
+
 }
